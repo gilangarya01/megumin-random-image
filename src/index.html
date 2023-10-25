@@ -1,13 +1,74 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind Css -->
+    <link rel="stylesheet" href="/dist/output.css" />
+    <!-- Icon Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <title>Megumin Random Image</title>
+  </head>
+
+  <body style="background-image: url('/assets/image/bg.png')">
+    <!-- Navbar - Start -->
+    <nav class="px-4 lg:px-16 py-4 flex text-red-700">
+      <!-- Tittle Navbar -->
+      <h1 class="text-2xl font-semibold text-red-900">MEGUMIN</h1>
+      <!-- List Navbar -->
+      <ul class="mx-5 lg:mx-10 flex w-2/5 lg:w-44 items-center font-medium">
+        <li class="mr-3">
+          <a
+            class="duration-300 hover:text-red-900 underline underline-offset-4"
+            href="#"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a class="duration-300 hover:text-red-900" href="about.html"
+            >About</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar - End -->
+
+    <!-- Main - Start -->
+    <main
+      class="flex flex-col lg:flex-row p-4 lg:pt-6 justify-center lg:justify-around items-center"
+    >
+      <!-- Image Area -->
+      <div
+        class="img-area w-3/4 lg:w-96 overflow-hidden rounded-lg border-4 border-red-900"
+      >
+        <a href="https://i.waifu.pics/932Og1K.jpg" target="_blank">
+          <img src="https://i.waifu.pics/932Og1K.jpg" alt="random waifu" />
+        </a>
+      </div>
+
+      <!-- Additional Area -->
+      <div class="add-area lg:w-1/2 my-4">
+        <!-- Button for "Acak" --> 
+        <button
+          class="px-4 py-3 mr-4 text-white font-medium bg-red-700 duration-300 hover:bg-red-900 rounded-xl"
+        >
+          <i class="bi bi-shuffle"></i> Random
+        </button>
+        <!-- Button for "Download" -->
+        <a
+          href="https://i.waifu.pics/932Og1K.jpg"
+          target="_blank"
+          class="px-4 py-3 text-white font-medium bg-rose-700 duration-300 hover:bg-rose-900 rounded-xl"
+          ><i class="bi bi-cloud-arrow-down"></i> Download</a
+        >
+      </div>
+    </main>
+    <!-- Main - End -->
+
+    <script src="./dist/script.js"></script>
+  </body>
 </html>
