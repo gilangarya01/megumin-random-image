@@ -2,7 +2,7 @@
 
 ### Decription
 
-Ini adalah repository yang berisi proyek web sederhana yang akan menampilkan gambar Megumin secara acak dengan menggunakan API "waifu.pics". Proyek ini dibangun dengan memanfaatkan Tailwind CSS untuk desain tampilan yang responsif dan menarik. Ini adalah proyek untuk pembelajaran saya tentang Tailwindcss dan API
+This is a repository containing a simple web project that will display random Megumin images by using the “waifu.pics” API. This project is built by utilizing Tailwind CSS for responsive and attractive display design. This is a project for my learning about Tailwindcss and APIs.
 
 ### Tech Stack
 
@@ -13,7 +13,7 @@ Ini adalah repository yang berisi proyek web sederhana yang akan menampilkan gam
 
 ### How To Use
 
-Jalankan file `index.html` di web browser untuk menjalankan project.
+Run the `index.html` file on the `live-server` with a web browser to run the project.
 
 #### Build Taiwindcss
 

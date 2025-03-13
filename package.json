@@ -1,15 +1,15 @@
 {
-	"name": "megumin-random-image",
-	"version": "1.0.0",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
-	},
-	"author": "",
-	"license": "ISC",
-	"description": "",
-	"devDependencies": {
-		"tailwindcss": "^3.4.7"
-	}
+  "name": "megumin-random-image",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
 }

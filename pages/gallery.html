@@ -1,125 +1,220 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../src/css/output.css" rel="stylesheet" />
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link href="../src/output.css" rel="stylesheet" />
-</head>
+  <body style="background-image: url(/assets/images/bg1.png)">
+    <!-- Navbar - Start -->
 
-<body style="background-image: url(/assets/images/bg1.png)">
-	<!-- Navbar - Start -->
+    <nav class="border-gray-200">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="../index.html"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <span class="self-center text-2xl font-semibold whitespace-nowrap"
+            >Megumin</span
+          >
+        </a>
+        <div class="block w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-row p-0 rounded-lg md:space-x-8 rtl:space-x-reverse mt-0"
+          >
+            <li>
+              <a
+                href="../index.html"
+                class="block py-2 px-3 rounded text-gray-900 md:p-0"
+                aria-current="page"
+                >Random</a
+              >
+            </li>
+            <li>
+              <a
+                href="../pages/gallery.html"
+                class="block py-2 px-3 text-red-700 rounded hover:text-red-700 md:p-0"
+                >Gallery</a
+              >
+            </li>
+            <li>
+              <a
+                href="../pages/about.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:text-red-700 md:p-0"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-	<nav class="border-gray-200">
-		<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-			<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-				<span class="self-center text-2xl font-semibold whitespace-nowrap">Megumin</span>
-			</a>
-			<div class="block w-auto" id="navbar-default">
-				<ul
-					class="font-medium flex flex-row p-0 rounded-lg md:space-x-8 rtl:space-x-reverse mt-0">
-					<li>
-						<a href="/index.html"
-							class="block py-2 px-3 rounded text-gray-900 md:p-0"
-							aria-current="page">Random</a>
-					</li>
-					<li>
-						<a href="/pages/gallery.html"
-							class="block py-2 px-3 text-red-700 rounded hover:text-red-700 md:p-0">Gallery</a>
-					</li>
-					<li>
-						<a href="/pages/about.html"
-							class="block py-2 px-3 text-gray-900 rounded hover:text-red-700 md:p-0">About</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<!-- Navbar - End -->
-	<main class="flex flex-col mx-5 md:mx-20 md:mt-10">
-		<div class="mb-5">
-			<button type="button" id="random-all"
-				class="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
-				Random All
-			</button>
-		</div>
-		<div class="gallery grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
-			<div>
-				<a href="https://i.waifu.pics/kKhVZI7.jpg" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 rounded-lg"
-						src="https://i.waifu.pics/kKhVZI7.jpg" alt="" />
-				</a>
-			</div>
-			<div>
-				<a href="https://i.waifu.pics/Mzb-eoh.jpg" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 rounded-lg"
-						src="https://i.waifu.pics/Mzb-eoh.jpg" alt="" />
-				</a>
-			</div>
-			<div>
-				<a href="https://i.waifu.pics/kStgBrk.jpg" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 rounded-lg"
-						src="https://i.waifu.pics/kStgBrk.jpg" alt="" />
-				</a>
-			</div>
-			<div>
-				<a href="https://i.waifu.pics/aUpApFN.jpg" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 rounded-lg"
-						src="https://i.waifu.pics/aUpApFN.jpg" alt="" />
-				</a>
-			</div>
-			<div>
-				<a href="https://i.waifu.pics/G0_HIsk.jpg" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 rounded-lg"
-						src="https://i.waifu.pics/G0_HIsk.jpg" alt="" />
-				</a>
-			</div>
-			<div>
-				<a href="https://i.waifu.pics/akURxhB.jpg" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 rounded-lg"
-						src="https://i.waifu.pics/akURxhB.jpg" alt="" />
-				</a>
-			</div>
-			<div>
-				<a href="https://i.waifu.pics/FgTLfzE.jpg" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 ounded-lg"
-						src="https://i.waifu.pics/FgTLfzE.jpg" alt="" />
-				</a>
-			</div>
-			<div>
-				<a href="https://i.waifu.pics/YxxVJnB.jpg" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 rounded-lg"
-						src="https://i.waifu.pics/YxxVJnB.jpg" alt="" />
-				</a>
-			</div>
-			<div>
-				<a href="https://i.waifu.pics/mKJT~Tk.jpg" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 rounded-lg"
-						src="https://i.waifu.pics/mKJT~Tk.jpg" alt="" />
-				</a>
-			</div>
-			<div>
-				<a href="https://i.waifu.pics/SFagDqo.png" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 rounded-lg"
-						src="https://i.waifu.pics/SFagDqo.png" alt="" />
-				</a>
-			</div>
-			<div>
-				<a href="https://i.waifu.pics/oLWiI6~.jpg" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 rounded-lg"
-						src="https://i.waifu.pics/oLWiI6~.jpg" alt="" />
-				</a>
-			</div>
-			<div>
-				<a href="https://i.waifu.pics/u0ynNOP.jpg" target="_blank">
-					<img class="border-2 border-red-700 h-96 w-96 rounded-lg"
-						src="https://i.waifu.pics/u0ynNOP.jpg" alt="" />
-				</a>
-			</div>
-		</div>
-	</main>
-	<script src="/src/gallery.js"></script>
-</body>
-
+    <!-- Navbar - End -->
+    <main class="flex flex-col mx-5 md:mx-20 md:mt-10">
+      <div class="mb-5">
+        <button
+          type="button"
+          id="random-all"
+          class="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+        >
+          Random All
+        </button>
+      </div>
+      <div class="gallery grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+        <!--  -->
+        <div>
+          <a href="https://i.waifu.pics/kKhVZI7.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/kKhVZI7.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/Mzb-eoh.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/Mzb-eoh.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/kStgBrk.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/kStgBrk.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/aUpApFN.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/aUpApFN.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <!--  -->
+        <div>
+          <a href="https://i.waifu.pics/G0_HIsk.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/G0_HIsk.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/akURxhB.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/akURxhB.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/FgTLfzE.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 ounded-lg"
+              src="https://i.waifu.pics/FgTLfzE.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/YxxVJnB.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/YxxVJnB.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <!--  -->
+        <div>
+          <a href="https://i.waifu.pics/mKJT~Tk.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/mKJT~Tk.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/SFagDqo.png" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/SFagDqo.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/oLWiI6~.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/oLWiI6~.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/u0ynNOP.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/u0ynNOP.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <!--  -->
+        <div>
+          <a href="https://i.waifu.pics/yd2PAb6.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/yd2PAb6.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/0qdt-W-.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/0qdt-W-.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/4gLNscr.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/4gLNscr.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://i.waifu.pics/XFLRDMa.jpg" target="_blank">
+            <img
+              class="border-2 border-red-700 h-96 w-96 rounded-lg"
+              src="https://i.waifu.pics/XFLRDMa.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <!--  -->
+      </div>
+    </main>
+    <script src="../src/js/gallery.js"></script>
+  </body>
 </html>

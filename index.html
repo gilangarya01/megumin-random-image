@@ -1,9 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./src/output.css" rel="stylesheet" />
+    <link href="./src/css/output.css" rel="stylesheet" />
   </head>
 
   <body style="background-image: url(/assets/images/bg1.png)">
@@ -13,7 +13,10 @@
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
       >
-        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <a
+          href="index.html"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
           <span class="self-center text-2xl font-semibold whitespace-nowrap"
             >Megumin</span
           >
@@ -24,7 +27,7 @@
           >
             <li>
               <a
-                href="/index.html"
+                href="index.html"
                 class="block py-2 px-3 rounded text-red-700 md:p-0"
                 aria-current="page"
                 >Random</a
@@ -32,14 +35,14 @@
             </li>
             <li>
               <a
-                href="/pages/gallery.html"
+                href="./pages/gallery.html"
                 class="block py-2 px-3 text-gray-900 rounded hover:text-red-700 md:p-0"
                 >Gallery</a
               >
             </li>
             <li>
               <a
-                href="/pages/about.html"
+                href="./pages/about.html"
                 class="block py-2 px-3 text-gray-900 rounded hover:text-red-700 md:p-0"
                 >About</a
               >
@@ -82,17 +85,10 @@
             >
               Random
             </button>
-            <a
-              href="https://i.waifu.pics/kKhVZI7.jpg"
-              class="text-white bg-green-700 hover:bg-green-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
-              target="_blank"
-            >
-              Download
-            </a>
           </div>
         </div>
       </div>
     </main>
-    <script src="/src/random.js"></script>
+    <script src="./src/js/random.js"></script>
   </body>
 </html>
